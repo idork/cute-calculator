@@ -21,7 +21,7 @@ h1{
 }
 .calculator{
     background-color: #C1E2F5;
-    align-items:center;
+    margin: auto;
     position: relative;
     top: 15em;
     border: 5px solid;
@@ -32,9 +32,30 @@ h1{
 .screen {
     border: 3px solid;
     background-color: #000000;
+    color: white;
     position: relative;
     top: 3em;
     left: 5em;
     height: 4em;
     width: 15em;
 }
+
+/* Buttons */
+.container{
+    display: inline-grid;
+    position: relative;
+    top: 5em;
+    grid-template-columns: repeat(4, 5em);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.button{
+    border: 3px solid #8C87A1;
+}
+
+.one{
+
+}
+
+
+
