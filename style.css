@@ -51,9 +51,12 @@ h1{
 }
 .button{
     border: 3px solid #8C87A1;
+    background-color: #C7C3FD
 }
 
-.one{
+.playing{
+    background-color: #564DD4;
+    color: white;
 
 }
 
