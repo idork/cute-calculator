@@ -16,6 +16,10 @@ body{
     background-color:pink;
 }
 
+#cursor{
+  font-size: 30px;
+}
+
 h1{
     text-align: center;
 }
